@@ -1,5 +1,5 @@
 go-unidecode
-=========
+==============
 
 [![Build Status](https://travis-ci.org/mozillazg/go-unidecode.svg?branch=master)](https://travis-ci.org/mozillazg/go-unidecode)
 [![Coverage Status](https://coveralls.io/repos/mozillazg/go-unidecode/badge.png?branch=master)](https://coveralls.io/r/mozillazg/go-unidecode?branch=master)
