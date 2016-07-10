@@ -15,8 +15,8 @@ before_install:
   - go get github.com/mattn/goveralls
 
 install:
-  - go get -u github.com/mozillazg/go-unidecode
-  - go get -u github.com/mozillazg/go-unidecode/unidecode
+  - go get .
+  - go get ./unidecode
 
 script:
   - unidecode -V
