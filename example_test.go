@@ -12,7 +12,7 @@ func ExampleUnidecode() {
 	// Output: Bei Jing
 }
 
-func ExampleUnidecode_ascii() {
+func ExampleUnidecode_aSCII() {
 	s := "abc"
 	fmt.Println(unidecode.Unidecode(s))
 	// Output: abc

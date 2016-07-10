@@ -12,7 +12,8 @@ func Version() string {
 	return "0.1.0"
 }
 
-// Unidecode
+// Unidecode implements transliterate Unicode text into plain 7-bit ASCII.
+// e.g. Unidecode("kožušček") => "kozuscek"
 func Unidecode(s string) string {
 	return unidecode(s)
 }
@@ -33,9 +34,9 @@ func unidecode(s string) string {
 		section := r >> 8   // Chop off the last two hex digits
 		position := r % 256 // Last two hex digits
 
-		if table, ok := table.Tables[section]; ok {
-			if len(table) > int(position) {
-				ret = append(ret, table[position])
+		if tb, ok := table.Tables[section]; ok {
+			if len(tb) > int(position) {
+				ret = append(ret, tb[position])
 			}
 		}
 	}
