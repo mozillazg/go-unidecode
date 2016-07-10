@@ -15,6 +15,14 @@ Installation
 go get -u github.com/mozillazg/go-unidecode
 ```
 
+Install CLI tool:
+
+```
+go get -u github.com/mozillazg/go-unidecode/unidecode
+$ unidecode 北京
+Bei Jing 
+```
+
 
 Documentation
 --------------

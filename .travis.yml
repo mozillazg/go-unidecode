@@ -14,5 +14,13 @@ before_install:
   - go get github.com/axw/gocov/gocov
   - go get github.com/mattn/goveralls
 
+install:
+  - go get -u github.com/mozillazg/go-unidecode
+  - go get -u github.com/mozillazg/go-unidecode/unidecode
+
 script:
+  - unidecode -V
+  - unidecode abc
+  - echo "abc" | unidecode
+  - echo "abc" > abc.txt && unidecode < abc.txt
   - $HOME/gopath/bin/goveralls -repotoken fTzbGyLJgT59aIg3JJEQUJiyG6rCiTxsy
