@@ -203,7 +203,7 @@ var x060 = []string{
 	"Dun ",     // 0xc7
 	"Guo ",     // 0xc8
 	"Chan ",    // 0xc9
-	"Liang ",   // 0xca
+	"Jing ",    // 0xca
 	"Wan ",     // 0xcb
 	"Yuan ",    // 0xcc
 	"Jin ",     // 0xcd
