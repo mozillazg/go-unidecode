@@ -8,7 +8,6 @@ test:
 
 .PHONY: lint
 lint:
-	gofmt -s -w .
-	gofmt -s -w table
+	gofmt -s -w . table unidecode
 	golint .
 	golint table
