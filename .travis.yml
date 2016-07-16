@@ -23,4 +23,4 @@ script:
   - unidecode abc
   - echo "abc" | unidecode
   - echo "abc" > abc.txt && unidecode < abc.txt
-  - $HOME/gopath/bin/goveralls -repotoken fTzbGyLJgT59aIg3JJEQUJiyG6rCiTxsy
+  - $HOME/gopath/bin/goveralls -service=travis-ci
