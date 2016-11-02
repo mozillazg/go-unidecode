@@ -11,3 +11,4 @@ lint:
 	gofmt -s -w . table unidecode
 	golint .
 	golint table
+	go vet
