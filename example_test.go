@@ -7,9 +7,9 @@ import (
 )
 
 func ExampleUnidecode() {
-	s := "北京"
+	s := "北京kožušček"
 	fmt.Println(unidecode.Unidecode(s))
-	// Output: Bei Jing
+	// Output: Bei Jing kozuscek
 }
 
 func ExampleUnidecode_aSCII() {
