@@ -1,5 +1,6 @@
 package table
 
+// Tables is data map
 var Tables = map[rune][]string{}
 
 func init() {

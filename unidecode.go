@@ -9,7 +9,7 @@ import (
 
 // Version return version
 func Version() string {
-	return "0.1.0"
+	return "0.1.1"
 }
 
 // Unidecode implements transliterate Unicode text into plain 7-bit ASCII.
@@ -19,9 +19,8 @@ func Unidecode(s string) string {
 }
 
 func unidecode(s string) string {
-	runes := []rune(s)
 	ret := []string{}
-	for _, r := range runes {
+	for _, r := range s {
 		if r < unicode.MaxASCII {
 			v := string(r)
 			ret = append(ret, v)
@@ -33,7 +32,6 @@ func unidecode(s string) string {
 
 		section := r >> 8   // Chop off the last two hex digits
 		position := r % 256 // Last two hex digits
-
 		if tb, ok := table.Tables[section]; ok {
 			if len(tb) > int(position) {
 				ret = append(ret, tb[position])

@@ -22,7 +22,7 @@ func check(t *testing.T, ret, expect string) {
 
 func TestVersion(t *testing.T) {
 	ret := Version()
-	expect := "0.1.0"
+	expect := "0.1.1"
 	check(t, ret, expect)
 }
 
@@ -35,33 +35,33 @@ func TestUnidecodeASCII(t *testing.T) {
 
 func TestUnidecode(t *testing.T) {
 	cases := []testCase{
-		testCase{"", ""},
-		testCase{"abc", "abc"},
-		testCase{"北京", "Bei Jing "},
-		testCase{"abc北京", "abcBei Jing "},
-		testCase{"ネオアームストロングサイクロンジェットアームストロング砲", "neoamusutorongusaikuronzietsutoamusutoronguPao "},
-		testCase{"30 𝗄𝗆/𝗁", "30 km/h"},
-		testCase{"kožušček", "kozuscek"},
-		testCase{"ⓐⒶ⑳⒇⒛⓴⓾⓿", "aA20(20)20.20100"},
-		testCase{"Hello, World!", "Hello, World!"},
-		testCase{`\n`, `\n`},
-		testCase{`北京abc\n`, `Bei Jing abc\n`},
-		testCase{`'"\r\n`, `'"\r\n`},
-		testCase{"ČŽŠčžš", "CZSczs"},
-		testCase{"ア", "a"},
-		testCase{"α", "a"},
-		testCase{"a", "a"},
-		testCase{"ch\u00e2teau", "chateau"},
-		testCase{"vi\u00f1edos", "vinedos"},
-		testCase{"Efﬁcient", "Efficient"},
-		testCase{"příliš žluťoučký kůň pěl ďábelské ódy", "prilis zlutoucky kun pel dabelske ody"},
-		testCase{"PŘÍLIŠ ŽLUŤOUČKÝ KŮŇ PĚL ĎÁBELSKÉ ÓDY", "PRILIS ZLUTOUCKY KUN PEL DABELSKE ODY"},
-		testCase{"\ua500", ""},
-		testCase{"\u1eff", ""},
-		testCase{string(0xfffff), ""},
-		testCase{"\U0001d5a0", "A"},
-		testCase{"\U0001d5c4\U0001d5c6/\U0001d5c1", "km/h"},
-		testCase{"\u2124\U0001d552\U0001d55c\U0001d552\U0001d55b \U0001d526\U0001d52a\U0001d51e \U0001d4e4\U0001d4f7\U0001d4f2\U0001d4ec\U0001d4f8\U0001d4ed\U0001d4ee \U0001d4c8\U0001d4c5\u212f\U0001d4b8\U0001d4be\U0001d4bb\U0001d4be\U0001d4c0\U0001d4b6\U0001d4b8\U0001d4be\U0001d4bf\u212f \U0001d59f\U0001d586 \U0001d631\U0001d62a\U0001d634\U0001d622\U0001d637\U0001d626?!", "Zakaj ima Unicode specifikacije za pisave?!"},
+		{"", ""},
+		{"abc", "abc"},
+		{"北京", "Bei Jing "},
+		{"abc北京", "abcBei Jing "},
+		{"ネオアームストロングサイクロンジェットアームストロング砲", "neoamusutorongusaikuronzietsutoamusutoronguPao "},
+		{"30 𝗄𝗆/𝗁", "30 km/h"},
+		{"kožušček", "kozuscek"},
+		{"ⓐⒶ⑳⒇⒛⓴⓾⓿", "aA20(20)20.20100"},
+		{"Hello, World!", "Hello, World!"},
+		{`\n`, `\n`},
+		{`北京abc\n`, `Bei Jing abc\n`},
+		{`'"\r\n`, `'"\r\n`},
+		{"ČŽŠčžš", "CZSczs"},
+		{"ア", "a"},
+		{"α", "a"},
+		{"a", "a"},
+		{"ch\u00e2teau", "chateau"},
+		{"vi\u00f1edos", "vinedos"},
+		{"Efﬁcient", "Efficient"},
+		{"příliš žluťoučký kůň pěl ďábelské ódy", "prilis zlutoucky kun pel dabelske ody"},
+		{"PŘÍLIŠ ŽLUŤOUČKÝ KŮŇ PĚL ĎÁBELSKÉ ÓDY", "PRILIS ZLUTOUCKY KUN PEL DABELSKE ODY"},
+		{"\ua500", ""},
+		{"\u1eff", ""},
+		{string(0xfffff), ""},
+		{"\U0001d5a0", "A"},
+		{"\U0001d5c4\U0001d5c6/\U0001d5c1", "km/h"},
+		{"\u2124\U0001d552\U0001d55c\U0001d552\U0001d55b \U0001d526\U0001d52a\U0001d51e \U0001d4e4\U0001d4f7\U0001d4f2\U0001d4ec\U0001d4f8\U0001d4ed\U0001d4ee \U0001d4c8\U0001d4c5\u212f\U0001d4b8\U0001d4be\U0001d4bb\U0001d4be\U0001d4c0\U0001d4b6\U0001d4b8\U0001d4be\U0001d4bf\u212f \U0001d59f\U0001d586 \U0001d631\U0001d62a\U0001d634\U0001d622\U0001d637\U0001d626?!", "Zakaj ima Unicode specifikacije za pisave?!"},
 	}
 	for _, c := range cases {
 		testUnidecode(t, c.input, c.expect)
