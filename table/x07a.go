@@ -38,7 +38,7 @@ var x07a = []string{
 	"Yu ",     // 0x22
 	"Su ",     // 0x23
 	"Lue ",    // 0x24
-	"[?] ",    // 0x25
+	"",        // 0x25
 	"Yi ",     // 0x26
 	"Xi ",     // 0x27
 	"Bian ",   // 0x28
@@ -83,7 +83,7 @@ var x07a = []string{
 	"Wen ",    // 0x4f
 	"Qiu ",    // 0x50
 	"Se ",     // 0x51
-	"[?] ",    // 0x52
+	"",        // 0x52
 	"Yi ",     // 0x53
 	"Huang ",  // 0x54
 	"Qie ",    // 0x55
@@ -112,7 +112,7 @@ var x07a = []string{
 	"Gong ",   // 0x6c
 	"Lu ",     // 0x6d
 	"Biao ",   // 0x6e
-	"[?] ",    // 0x6f
+	"",        // 0x6f
 	"Rang ",   // 0x70
 	"Zhuo ",   // 0x71
 	"Li ",     // 0x72
@@ -168,7 +168,7 @@ var x07a = []string{
 	"Guan ",   // 0xa4
 	"Kui ",    // 0xa5
 	"Dou ",    // 0xa6
-	"[?] ",    // 0xa7
+	"",        // 0xa7
 	"Yin ",    // 0xa8
 	"Wo ",     // 0xa9
 	"Wa ",     // 0xaa
@@ -190,7 +190,7 @@ var x07a = []string{
 	"Kui ",    // 0xba
 	"Chuang ", // 0xbb
 	"Zhao ",   // 0xbc
-	"[?] ",    // 0xbd
+	"",        // 0xbd
 	"Kuan ",   // 0xbe
 	"Long ",   // 0xbf
 	"Cheng ",  // 0xc0

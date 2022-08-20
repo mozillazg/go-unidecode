@@ -3,7 +3,7 @@ package table
 var x080 = []string{
 	"Yao ",       // 0x00
 	"Lao ",       // 0x01
-	"[?] ",       // 0x02
+	"",           // 0x02
 	"Kao ",       // 0x03
 	"Mao ",       // 0x04
 	"Zhe ",       // 0x05
@@ -66,7 +66,7 @@ var x080 = []string{
 	"Hong ",      // 0x3e
 	"Geng ",      // 0x3f
 	"Zhi ",       // 0x40
-	"[?] ",       // 0x41
+	"",           // 0x41
 	"Nie ",       // 0x42
 	"Dan ",       // 0x43
 	"Zhen ",      // 0x44
@@ -84,7 +84,7 @@ var x080 = []string{
 	"Ya ",        // 0x50
 	"Die ",       // 0x51
 	"Gua ",       // 0x52
-	"[?] ",       // 0x53
+	"",           // 0x53
 	"Lian ",      // 0x54
 	"Hao ",       // 0x55
 	"Sheng ",     // 0x56
@@ -100,7 +100,7 @@ var x080 = []string{
 	"Ping ",      // 0x60
 	"Cong ",      // 0x61
 	"Shikato ",   // 0x62
-	"[?] ",       // 0x63
+	"",           // 0x63
 	"Ting ",      // 0x64
 	"Yu ",        // 0x65
 	"Cong ",      // 0x66

@@ -13,7 +13,7 @@ var x081 = []string{
 	"Mai ",        // 0x09
 	"Ji ",         // 0x0a
 	"Obiyaakasu ", // 0x0b
-	"[?] ",        // 0x0c
+	"",            // 0x0c
 	"Kuai ",       // 0x0d
 	"Sa ",         // 0x0e
 	"Zang ",       // 0x0f

@@ -16,7 +16,7 @@ var x051 = []string{
 	"Jiao ",  // 0x0c
 	"Sha ",   // 0x0d
 	"Zai ",   // 0x0e
-	"[?] ",   // 0x0f
+	"",       // 0x0f
 	"Bin ",   // 0x10
 	"An ",    // 0x11
 	"Ru ",    // 0x12
@@ -112,7 +112,7 @@ var x051 = []string{
 	"Gong ",  // 0x6c
 	"Liu ",   // 0x6d
 	"Xi ",    // 0x6e
-	"[?] ",   // 0x6f
+	"",       // 0x6f
 	"Lan ",   // 0x70
 	"Gong ",  // 0x71
 	"Tian ",  // 0x72

@@ -200,7 +200,7 @@ var x099 = []string{
 	"Tuo ",   // 0xc4
 	"Yi ",    // 0xc5
 	"Qu ",    // 0xc6
-	"[?] ",   // 0xc7
+	"",       // 0xc7
 	"Qu ",    // 0xc8
 	"Jiong ", // 0xc9
 	"Bo ",    // 0xca

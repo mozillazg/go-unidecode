@@ -237,7 +237,7 @@ var x07e = []string{
 	"Ji ",     // 0xe9
 	"Xu ",     // 0xea
 	"Ling ",   // 0xeb
-	"[?] ",    // 0xec
+	"",        // 0xec
 	"Xu ",     // 0xed
 	"Qi ",     // 0xee
 	"Fei ",    // 0xef

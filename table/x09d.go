@@ -146,7 +146,7 @@ var x09d = []string{
 	"Kikuitadaki ", // 0x8e
 	"Ji ",          // 0x8f
 	"Shu ",         // 0x90
-	"[?] ",         // 0x91
+	"",             // 0x91
 	"Chi ",         // 0x92
 	"Miao ",        // 0x93
 	"Rou ",         // 0x94

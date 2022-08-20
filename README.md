@@ -1,7 +1,7 @@
 go-unidecode
 ==============
 
-[![Build Status](https://travis-ci.org/mozillazg/go-unidecode.svg?branch=master)](https://travis-ci.org/mozillazg/go-unidecode)
+[![Build Status][![Test](https://github.com/mozillazg/go-unidecode/actions/workflows/ci.yml/badge.svg?branch=master)](https://github.com/mozillazg/go-unidecode/actions/workflows/ci.yml)
 [![Coverage Status](https://coveralls.io/repos/mozillazg/go-unidecode/badge.svg?branch=master)](https://coveralls.io/r/mozillazg/go-unidecode?branch=master)
 [![Go Report Card](https://goreportcard.com/badge/github.com/mozillazg/go-unidecode)](https://goreportcard.com/report/github.com/mozillazg/go-unidecode)
 [![GoDoc](https://godoc.org/github.com/mozillazg/go-unidecode?status.svg)](https://godoc.org/github.com/mozillazg/go-unidecode)

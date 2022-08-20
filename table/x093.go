@@ -64,13 +64,13 @@ var x093 = []string{
 	"Nai ",     // 0x3c
 	"Wan ",     // 0x3d
 	"Zan ",     // 0x3e
-	"[?] ",     // 0x3f
+	"",         // 0x3f
 	"De ",      // 0x40
 	"Xian ",    // 0x41
-	"[?] ",     // 0x42
+	"",         // 0x42
 	"Huo ",     // 0x43
 	"Liang ",   // 0x44
-	"[?] ",     // 0x45
+	"",         // 0x45
 	"Men ",     // 0x46
 	"Kai ",     // 0x47
 	"Ying ",    // 0x48
@@ -135,7 +135,7 @@ var x093 = []string{
 	"Pai ",     // 0x83
 	"Ai ",      // 0x84
 	"Jie ",     // 0x85
-	"[?] ",     // 0x86
+	"",         // 0x86
 	"Mei ",     // 0x87
 	"Chuo ",    // 0x88
 	"Ta ",      // 0x89
@@ -189,9 +189,9 @@ var x093 = []string{
 	"Kasugai ", // 0xb9
 	"Habaki ",  // 0xba
 	"Suo ",     // 0xbb
-	"[?] ",     // 0xbc
-	"[?] ",     // 0xbd
-	"[?] ",     // 0xbe
+	"",         // 0xbc
+	"",         // 0xbd
+	"",         // 0xbe
 	"Na ",      // 0xbf
 	"Lu ",      // 0xc0
 	"Suo ",     // 0xc1
@@ -240,10 +240,10 @@ var x093 = []string{
 	"Xia ",     // 0xec
 	"Xi ",      // 0xed
 	"Kang ",    // 0xee
-	"[?] ",     // 0xef
+	"",         // 0xef
 	"Beng ",    // 0xf0
-	"[?] ",     // 0xf1
-	"[?] ",     // 0xf2
+	"",         // 0xf1
+	"",         // 0xf2
 	"Zheng ",   // 0xf3
 	"Lu ",      // 0xf4
 	"Hua ",     // 0xf5
