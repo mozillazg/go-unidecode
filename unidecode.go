@@ -19,11 +19,10 @@ func Unidecode(s string) string {
 }
 
 func unidecode(s string) string {
-	ret := []string{}
+	var ret strings.Builder
 	for _, r := range s {
 		if r < unicode.MaxASCII {
-			v := string(r)
-			ret = append(ret, v)
+			ret.WriteRune(r)
 			continue
 		}
 		if r > 0xeffff {
@@ -34,9 +33,9 @@ func unidecode(s string) string {
 		position := r % 256 // Last two hex digits
 		if tb, ok := table.Tables[section]; ok {
 			if len(tb) > int(position) {
-				ret = append(ret, tb[position])
+				ret.WriteString(tb[position])
 			}
 		}
 	}
-	return strings.Join(ret, "")
+	return ret.String()
 }
