@@ -23,3 +23,6 @@ jobs:
 
     - name: Test
       run: make test
+
+    - name: Test CLI
+      run: cd unidecode && go run main.go kožušček
