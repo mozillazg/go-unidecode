@@ -149,13 +149,13 @@ var x05f = []string{
 	"Jing ",  // 0x91
 	"Tu ",    // 0x92
 	"Cong ",  // 0x93
-	"[?] ",   // 0x94
+	"",       // 0x94
 	"Lai ",   // 0x95
 	"Cong ",  // 0x96
 	"De ",    // 0x97
 	"Pai ",   // 0x98
 	"Xi ",    // 0x99
-	"[?] ",   // 0x9a
+	"",       // 0x9a
 	"Qi ",    // 0x9b
 	"Chang ", // 0x9c
 	"Zhi ",   // 0x9d

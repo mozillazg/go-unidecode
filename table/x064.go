@@ -183,7 +183,7 @@ var x064 = []string{
 	"Qin ",    // 0xb3
 	"Dun ",    // 0xb4
 	"Nian ",   // 0xb5
-	"[?] ",    // 0xb6
+	"",        // 0xb6
 	"Xie ",    // 0xb7
 	"Lu ",     // 0xb8
 	"Jiao ",   // 0xb9
@@ -221,7 +221,7 @@ var x064 = []string{
 	"Ao ",     // 0xd9
 	"Ju ",     // 0xda
 	"Ye ",     // 0xdb
-	"[?] ",    // 0xdc
+	"",        // 0xdc
 	"Mang ",   // 0xdd
 	"Sou ",    // 0xde
 	"Mi ",     // 0xdf

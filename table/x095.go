@@ -207,7 +207,7 @@ var x095 = []string{
 	"Que ",    // 0xcb
 	"Lan ",    // 0xcc
 	"Du ",     // 0xcd
-	"[?] ",    // 0xce
+	"",        // 0xce
 	"Phwung ", // 0xcf
 	"Tian ",   // 0xd0
 	"Nie ",    // 0xd1
@@ -232,7 +232,7 @@ var x095 = []string{
 	"Huan ",   // 0xe4
 	"Ta ",     // 0xe5
 	"Wen ",    // 0xe6
-	"[?] ",    // 0xe7
+	"",        // 0xe7
 	"Men ",    // 0xe8
 	"Shuan ",  // 0xe9
 	"Shan ",   // 0xea

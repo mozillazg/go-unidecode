@@ -7,7 +7,7 @@ var x068 = []string{
 	"Hoy ",     // 0x03
 	"Rong ",    // 0x04
 	"Zha ",     // 0x05
-	"[?] ",     // 0x06
+	"",         // 0x06
 	"Biao ",    // 0x07
 	"Zhan ",    // 0x08
 	"Jie ",     // 0x09
@@ -95,7 +95,7 @@ var x068 = []string{
 	"Kasei ",   // 0x5b
 	"Ying ",    // 0x5c
 	"Masu ",    // 0x5d
-	"[?] ",     // 0x5e
+	"",         // 0x5e
 	"Zhan ",    // 0x5f
 	"Ya ",      // 0x60
 	"Nao ",     // 0x61

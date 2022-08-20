@@ -44,7 +44,7 @@ var x092 = []string{
 	"Habaki ",  // 0x28
 	"Irori ",   // 0x29
 	"Ngaak ",   // 0x2a
-	"[?] ",     // 0x2b
+	"",         // 0x2b
 	"Duo ",     // 0x2c
 	"Zi ",      // 0x2d
 	"Ni ",      // 0x2e
@@ -245,7 +245,7 @@ var x092 = []string{
 	"Te ",      // 0xf1
 	"Pyeng ",   // 0xf2
 	"Zhu ",     // 0xf3
-	"[?] ",     // 0xf4
+	"",         // 0xf4
 	"Tu ",      // 0xf5
 	"Liu ",     // 0xf6
 	"Zui ",     // 0xf7

@@ -192,4 +192,6 @@ func init() {
 	Tables[0x1d5] = x1d5
 	Tables[0x1d6] = x1d6
 	Tables[0x1d7] = x1d7
+	Tables[0x1f1] = x1f1
+	Tables[0x1f6] = x1f6
 }

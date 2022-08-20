@@ -93,7 +93,7 @@ var x091 = []string{
 	"Zhen ",       // 0x59
 	"Fen ",        // 0x5a
 	"Sakenomoto ", // 0x5b
-	"[?] ",        // 0x5c
+	"",            // 0x5c
 	"Yun ",        // 0x5d
 	"Tai ",        // 0x5e
 	"Tian ",       // 0x5f

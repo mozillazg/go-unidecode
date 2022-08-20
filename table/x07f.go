@@ -65,7 +65,7 @@ var x07f = []string{
 	"Bo ",       // 0x3d
 	"Ping ",     // 0x3e
 	"Hou ",      // 0x3f
-	"[?] ",      // 0x40
+	"",          // 0x40
 	"Gang ",     // 0x41
 	"Ying ",     // 0x42
 	"Ying ",     // 0x43
@@ -87,7 +87,7 @@ var x07f = []string{
 	"Gang ",     // 0x53
 	"Wang ",     // 0x54
 	"Han ",      // 0x55
-	"[?] ",      // 0x56
+	"",          // 0x56
 	"Luo ",      // 0x57
 	"Fu ",       // 0x58
 	"Mi ",       // 0x59
@@ -247,7 +247,7 @@ var x07f = []string{
 	"Yi ",       // 0xf3
 	"Lian ",     // 0xf4
 	"Qu ",       // 0xf5
-	"[?] ",      // 0xf6
+	"",          // 0xf6
 	"Lin ",      // 0xf7
 	"Pen ",      // 0xf8
 	"Qiao ",     // 0xf9

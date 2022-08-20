@@ -53,7 +53,7 @@ var x088 = []string{
 	"Gu ",        // 0x31
 	"Juan ",      // 0x32
 	"Ying ",      // 0x33
-	"[?] ",       // 0x34
+	"",           // 0x34
 	"Xi ",        // 0x35
 	"Can ",       // 0x36
 	"Qu ",        // 0x37
@@ -81,7 +81,7 @@ var x088 = []string{
 	"Yan ",       // 0x4d
 	"Kan ",       // 0x4e
 	"Yuan ",      // 0x4f
-	"[?] ",       // 0x50
+	"",           // 0x50
 	"Ling ",      // 0x51
 	"Xuan ",      // 0x52
 	"Shu ",       // 0x53
@@ -200,7 +200,7 @@ var x088 = []string{
 	"Yuki ",      // 0xc4
 	"Zhuang ",    // 0xc5
 	"Dang ",      // 0xc6
-	"[?] ",       // 0xc7
+	"",           // 0xc7
 	"Kun ",       // 0xc8
 	"Ken ",       // 0xc9
 	"Niao ",      // 0xca

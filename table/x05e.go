@@ -102,7 +102,7 @@ var x05e = []string{
 	"Chuang ", // 0x62
 	"Bi ",     // 0x63
 	"Hei ",    // 0x64
-	"[?] ",    // 0x65
+	"",        // 0x65
 	"Mi ",     // 0x66
 	"Qiao ",   // 0x67
 	"Chan ",   // 0x68
@@ -128,7 +128,7 @@ var x05e = []string{
 	"You ",    // 0x7c
 	"You ",    // 0x7d
 	"Ji ",     // 0x7e
-	"Guang ",  // 0x7f
+	"Yan ",    // 0x7f
 	"Pi ",     // 0x80
 	"Ting ",   // 0x81
 	"Ze ",     // 0x82
@@ -147,7 +147,7 @@ var x05e = []string{
 	"Xu ",     // 0x8f
 	"Lu ",     // 0x90
 	"Wu ",     // 0x91
-	"[?] ",    // 0x92
+	"",        // 0x92
 	"Ku ",     // 0x93
 	"Ying ",   // 0x94
 	"Di ",     // 0x95
@@ -238,7 +238,7 @@ var x05e = []string{
 	"Lin ",    // 0xea
 	"Liao ",   // 0xeb
 	"Lu ",     // 0xec
-	"[?] ",    // 0xed
+	"",        // 0xed
 	"Ying ",   // 0xee
 	"Xian ",   // 0xef
 	"Ting ",   // 0xf0

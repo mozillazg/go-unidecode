@@ -203,7 +203,7 @@ var x098 = []string{
 	"Biao ",   // 0xc7
 	"Biao ",   // 0xc8
 	"Liao ",   // 0xc9
-	"[?] ",    // 0xca
+	"",        // 0xca
 	"Se ",     // 0xcb
 	"Feng ",   // 0xcc
 	"Biao ",   // 0xcd

@@ -209,7 +209,7 @@ var x07b = []string{
 	"Qiu ",    // 0xcd
 	"Miao ",   // 0xce
 	"Qian ",   // 0xcf
-	"[?] ",    // 0xd0
+	"",        // 0xd0
 	"Kui ",    // 0xd1
 	"Sik ",    // 0xd2
 	"Lou ",    // 0xd3

@@ -13,7 +13,7 @@ var x08d = []string{
 	"Tan ",   // 0x09
 	"Zan ",   // 0x0a
 	"Yan ",   // 0x0b
-	"[?] ",   // 0x0c
+	"",       // 0x0c
 	"Shan ",  // 0x0d
 	"Wan ",   // 0x0e
 	"Ying ",  // 0x0f
@@ -25,7 +25,7 @@ var x08d = []string{
 	"Du ",    // 0x15
 	"Shu ",   // 0x16
 	"Yan ",   // 0x17
-	"[?] ",   // 0x18
+	"",       // 0x18
 	"Xuan ",  // 0x19
 	"Long ",  // 0x1a
 	"Gan ",   // 0x1b
@@ -177,7 +177,7 @@ var x08d = []string{
 	"Yao ",   // 0xad
 	"Zao ",   // 0xae
 	"Ti ",    // 0xaf
-	"[?] ",   // 0xb0
+	"",       // 0xb0
 	"Zan ",   // 0xb1
 	"Zan ",   // 0xb2
 	"Zu ",    // 0xb3

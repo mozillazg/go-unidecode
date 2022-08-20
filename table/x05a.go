@@ -52,7 +52,7 @@ var x05a = []string{
 	"Si ",     // 0x30
 	"Yu ",     // 0x31
 	"Wa ",     // 0x32
-	"[?] ",    // 0x33
+	"",        // 0x33
 	"Xian ",   // 0x34
 	"Ju ",     // 0x35
 	"Qu ",     // 0x36
@@ -172,7 +172,7 @@ var x05a = []string{
 	"Jiu ",    // 0xa8
 	"Hu ",     // 0xa9
 	"Ao ",     // 0xaa
-	"[?] ",    // 0xab
+	"",        // 0xab
 	"Bou ",    // 0xac
 	"Xu ",     // 0xad
 	"Tou ",    // 0xae
