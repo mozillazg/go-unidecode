@@ -46,8 +46,8 @@ var x070 = []string{
 	"Fan ",    // 0x2a
 	"Hu ",     // 0x2b
 	"Lai ",    // 0x2c
-	"[?] ",    // 0x2d
-	"[?] ",    // 0x2e
+	"",        // 0x2d
+	"",        // 0x2e
 	"Ying ",   // 0x2f
 	"Mi ",     // 0x30
 	"Ji ",     // 0x31
@@ -93,7 +93,7 @@ var x070 = []string{
 	"Dang ",   // 0x59
 	"Jiao ",   // 0x5a
 	"Chan ",   // 0x5b
-	"[?] ",    // 0x5c
+	"",        // 0x5c
 	"Hao ",    // 0x5d
 	"Ba ",     // 0x5e
 	"Zhu ",    // 0x5f
@@ -159,7 +159,7 @@ var x070 = []string{
 	"Guang ",  // 0x9b
 	"Wei ",    // 0x9c
 	"Qiang ",  // 0x9d
-	"[?] ",    // 0x9e
+	"",        // 0x9e
 	"Da ",     // 0x9f
 	"Xia ",    // 0xa0
 	"Zheng ",  // 0xa1
@@ -192,7 +192,7 @@ var x070 = []string{
 	"Lian ",   // 0xbc
 	"Chi ",    // 0xbd
 	"Huang ",  // 0xbe
-	"[?] ",    // 0xbf
+	"",        // 0xbf
 	"Hu ",     // 0xc0
 	"Shuo ",   // 0xc1
 	"Lan ",    // 0xc2
@@ -230,16 +230,16 @@ var x070 = []string{
 	"Zhe ",    // 0xe2
 	"Hui ",    // 0xe3
 	"Kao ",    // 0xe4
-	"[?] ",    // 0xe5
+	"",        // 0xe5
 	"Fan ",    // 0xe6
 	"Shao ",   // 0xe7
 	"Ye ",     // 0xe8
 	"Hui ",    // 0xe9
-	"[?] ",    // 0xea
+	"",        // 0xea
 	"Tang ",   // 0xeb
 	"Jin ",    // 0xec
 	"Re ",     // 0xed
-	"[?] ",    // 0xee
+	"",        // 0xee
 	"Xi ",     // 0xef
 	"Fu ",     // 0xf0
 	"Jiong ",  // 0xf1

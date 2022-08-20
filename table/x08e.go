@@ -15,7 +15,7 @@ var x08e = []string{
 	"Jiao ",     // 0x0b
 	"Chou ",     // 0x0c
 	"Qiao ",     // 0x0d
-	"[?] ",      // 0x0e
+	"",          // 0x0e
 	"Ta ",       // 0x0f
 	"Jian ",     // 0x10
 	"Qi ",       // 0x11
@@ -189,7 +189,7 @@ var x08e = []string{
 	"Ju ",       // 0xb9
 	"Tang ",     // 0xba
 	"Utsuke ",   // 0xbb
-	"[?] ",      // 0xbc
+	"",          // 0xbc
 	"Yan ",      // 0xbd
 	"Shitsuke ", // 0xbe
 	"Kang ",     // 0xbf

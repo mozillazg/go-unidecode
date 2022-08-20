@@ -3,7 +3,7 @@ package table
 var x079 = []string{
 	"Tani ",   // 0x00
 	"Jiao ",   // 0x01
-	"[?] ",    // 0x02
+	"",        // 0x02
 	"Zhang ",  // 0x03
 	"Qiao ",   // 0x04
 	"Dun ",    // 0x05
@@ -34,8 +34,8 @@ var x079 = []string{
 	"Meng ",   // 0x1e
 	"Pao ",    // 0x1f
 	"Ci ",     // 0x20
-	"[?] ",    // 0x21
-	"[?] ",    // 0x22
+	"",        // 0x21
+	"",        // 0x22
 	"Mie ",    // 0x23
 	"Ca ",     // 0x24
 	"Xian ",   // 0x25
@@ -78,7 +78,7 @@ var x079 = []string{
 	"Beng ",   // 0x4a
 	"Dui ",    // 0x4b
 	"Zhong ",  // 0x4c
-	"[?] ",    // 0x4d
+	"",        // 0x4d
 	"Yi ",     // 0x4e
 	"Shi ",    // 0x4f
 	"You ",    // 0x50
@@ -154,7 +154,7 @@ var x079 = []string{
 	"Mei ",    // 0x96
 	"Si ",     // 0x97
 	"Di ",     // 0x98
-	"[?] ",    // 0x99
+	"",        // 0x99
 	"Zhuo ",   // 0x9a
 	"Zhen ",   // 0x9b
 	"Yong ",   // 0x9c
@@ -164,7 +164,7 @@ var x079 = []string{
 	"Si ",     // 0xa0
 	"Ma ",     // 0xa1
 	"Ta ",     // 0xa2
-	"[?] ",    // 0xa3
+	"",        // 0xa3
 	"Xuan ",   // 0xa4
 	"Qi ",     // 0xa5
 	"Yu ",     // 0xa6

@@ -27,7 +27,7 @@ var x065 = []string{
 	"Mei ",   // 0x17
 	"Rang ",  // 0x18
 	"Chan ",  // 0x19
-	"[?] ",   // 0x1a
+	"",       // 0x1a
 	"Cuan ",  // 0x1b
 	"Xi ",    // 0x1c
 	"She ",   // 0x1d
@@ -144,7 +144,7 @@ var x065 = []string{
 	"Bin ",   // 0x8c
 	"Jue ",   // 0x8d
 	"Zhai ",  // 0x8e
-	"[?] ",   // 0x8f
+	"",       // 0x8f
 	"Fei ",   // 0x90
 	"Ban ",   // 0x91
 	"Ban ",   // 0x92

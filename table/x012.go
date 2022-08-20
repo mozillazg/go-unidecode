@@ -8,7 +8,7 @@ var x012 = []string{
 	"hee",   // 0x04
 	"he",    // 0x05
 	"ho",    // 0x06
-	"[?]",   // 0x07
+	"",      // 0x07
 	"la",    // 0x08
 	"lu",    // 0x09
 	"li",    // 0x0a
@@ -72,15 +72,15 @@ var x012 = []string{
 	"qee",   // 0x44
 	"qe",    // 0x45
 	"qo",    // 0x46
-	"[?]",   // 0x47
+	"",      // 0x47
 	"qwa",   // 0x48
-	"[?]",   // 0x49
+	"",      // 0x49
 	"qwi",   // 0x4a
 	"qwaa",  // 0x4b
 	"qwee",  // 0x4c
 	"qwe",   // 0x4d
-	"[?]",   // 0x4e
-	"[?]",   // 0x4f
+	"",      // 0x4e
+	"",      // 0x4f
 	"qha",   // 0x50
 	"qhu",   // 0x51
 	"qhi",   // 0x52
@@ -88,15 +88,15 @@ var x012 = []string{
 	"qhee",  // 0x54
 	"qhe",   // 0x55
 	"qho",   // 0x56
-	"[?]",   // 0x57
+	"",      // 0x57
 	"qhwa",  // 0x58
-	"[?]",   // 0x59
+	"",      // 0x59
 	"qhwi",  // 0x5a
 	"qhwaa", // 0x5b
 	"qhwee", // 0x5c
 	"qhwe",  // 0x5d
-	"[?]",   // 0x5e
-	"[?]",   // 0x5f
+	"",      // 0x5e
+	"",      // 0x5f
 	"ba",    // 0x60
 	"bu",    // 0x61
 	"bi",    // 0x62
@@ -136,15 +136,15 @@ var x012 = []string{
 	"xee",   // 0x84
 	"xe",    // 0x85
 	"xo",    // 0x86
-	"[?]",   // 0x87
+	"",      // 0x87
 	"xwa",   // 0x88
-	"[?]",   // 0x89
+	"",      // 0x89
 	"xwi",   // 0x8a
 	"xwaa",  // 0x8b
 	"xwee",  // 0x8c
 	"xwe",   // 0x8d
-	"[?]",   // 0x8e
-	"[?]",   // 0x8f
+	"",      // 0x8e
+	"",      // 0x8f
 	"na",    // 0x90
 	"nu",    // 0x91
 	"ni",    // 0x92
@@ -163,7 +163,7 @@ var x012 = []string{
 	"nywa",  // 0x9f
 	"'a",    // 0xa0
 	"'u",    // 0xa1
-	"[?]",   // 0xa2
+	"",      // 0xa2
 	"'aa",   // 0xa3
 	"'ee",   // 0xa4
 	"'e",    // 0xa5
@@ -176,15 +176,15 @@ var x012 = []string{
 	"kee",   // 0xac
 	"ke",    // 0xad
 	"ko",    // 0xae
-	"[?]",   // 0xaf
+	"",      // 0xaf
 	"kwa",   // 0xb0
-	"[?]",   // 0xb1
+	"",      // 0xb1
 	"kwi",   // 0xb2
 	"kwaa",  // 0xb3
 	"kwee",  // 0xb4
 	"kwe",   // 0xb5
-	"[?]",   // 0xb6
-	"[?]",   // 0xb7
+	"",      // 0xb6
+	"",      // 0xb7
 	"kxa",   // 0xb8
 	"kxu",   // 0xb9
 	"kxi",   // 0xba
@@ -192,15 +192,15 @@ var x012 = []string{
 	"kxee",  // 0xbc
 	"kxe",   // 0xbd
 	"kxo",   // 0xbe
-	"[?]",   // 0xbf
+	"",      // 0xbf
 	"kxwa",  // 0xc0
-	"[?]",   // 0xc1
+	"",      // 0xc1
 	"kxwi",  // 0xc2
 	"kxwaa", // 0xc3
 	"kxwee", // 0xc4
 	"kxwe",  // 0xc5
-	"[?]",   // 0xc6
-	"[?]",   // 0xc7
+	"",      // 0xc6
+	"",      // 0xc7
 	"wa",    // 0xc8
 	"wu",    // 0xc9
 	"wi",    // 0xca
@@ -208,7 +208,7 @@ var x012 = []string{
 	"wee",   // 0xcc
 	"we",    // 0xcd
 	"wo",    // 0xce
-	"[?]",   // 0xcf
+	"",      // 0xcf
 	"`a",    // 0xd0
 	"`u",    // 0xd1
 	"`i",    // 0xd2
@@ -216,7 +216,7 @@ var x012 = []string{
 	"`ee",   // 0xd4
 	"`e",    // 0xd5
 	"`o",    // 0xd6
-	"[?]",   // 0xd7
+	"",      // 0xd7
 	"za",    // 0xd8
 	"zu",    // 0xd9
 	"zi",    // 0xda
@@ -240,7 +240,7 @@ var x012 = []string{
 	"yee",   // 0xec
 	"ye",    // 0xed
 	"yo",    // 0xee
-	"[?]",   // 0xef
+	"",      // 0xef
 	"da",    // 0xf0
 	"du",    // 0xf1
 	"di",    // 0xf2

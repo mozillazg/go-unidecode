@@ -227,7 +227,7 @@ var x066 = []string{
 	"Chen ",   // 0xdf
 	"Kuang ",  // 0xe0
 	"Die ",    // 0xe1
-	"[?] ",    // 0xe2
+	"",        // 0xe2
 	"Yan ",    // 0xe3
 	"Huo ",    // 0xe4
 	"Lu ",     // 0xe5

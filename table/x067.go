@@ -18,7 +18,7 @@ var x067 = []string{
 	"Ling ",  // 0x0e
 	"Fei ",   // 0x0f
 	"Qu ",    // 0x10
-	"[?] ",   // 0x11
+	"",       // 0x11
 	"Nu ",    // 0x12
 	"Tiao ",  // 0x13
 	"Shuo ",  // 0x14
@@ -38,7 +38,7 @@ var x067 = []string{
 	"Wang ",  // 0x22
 	"Tong ",  // 0x23
 	"Lang ",  // 0x24
-	"[?] ",   // 0x25
+	"",       // 0x25
 	"Meng ",  // 0x26
 	"Long ",  // 0x27
 	"Mu ",    // 0x28
@@ -49,7 +49,7 @@ var x067 = []string{
 	"Zha ",   // 0x2d
 	"Zhu ",   // 0x2e
 	"Zhu ",   // 0x2f
-	"[?] ",   // 0x30
+	"",       // 0x30
 	"Zhu ",   // 0x31
 	"Ren ",   // 0x32
 	"Ba ",    // 0x33
@@ -165,7 +165,7 @@ var x067 = []string{
 	"Dou ",   // 0xa1
 	"Shu ",   // 0xa2
 	"Zao ",   // 0xa3
-	"[?] ",   // 0xa4
+	"",       // 0xa4
 	"Li ",    // 0xa5
 	"Haze ",  // 0xa6
 	"Jian ",  // 0xa7

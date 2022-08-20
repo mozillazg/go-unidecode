@@ -164,7 +164,7 @@ var x062 = []string{
 	"Kou ",    // 0xa0
 	"Lun ",    // 0xa1
 	"Qiang ",  // 0xa2
-	"[?] ",    // 0xa3
+	"",        // 0xa3
 	"Hu ",     // 0xa4
 	"Bao ",    // 0xa5
 	"Bing ",   // 0xa6
@@ -229,7 +229,7 @@ var x062 = []string{
 	"Kuo ",    // 0xe1
 	"Long ",   // 0xe2
 	"Jian ",   // 0xe3
-	"[?] ",    // 0xe4
+	"",        // 0xe4
 	"Yong ",   // 0xe5
 	"Lan ",    // 0xe6
 	"Ning ",   // 0xe7

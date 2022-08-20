@@ -64,7 +64,7 @@ var x050 = []string{
 	"Zhi ",   // 0x3c
 	"Sha ",   // 0x3d
 	"Qing ",  // 0x3e
-	"[?] ",   // 0x3f
+	"",       // 0x3f
 	"Ying ",  // 0x40
 	"Cheng ", // 0x41
 	"Jian ",  // 0x42
@@ -167,7 +167,7 @@ var x050 = []string{
 	"Dai ",   // 0xa3
 	"Zai ",   // 0xa4
 	"Tang ",  // 0xa5
-	"[?] ",   // 0xa6
+	"",       // 0xa6
 	"Bin ",   // 0xa7
 	"Chu ",   // 0xa8
 	"Nuo ",   // 0xa9
@@ -243,7 +243,7 @@ var x050 = []string{
 	"Lin ",   // 0xef
 	"Bo ",    // 0xf0
 	"Gu ",    // 0xf1
-	"[?] ",   // 0xf2
+	"",       // 0xf2
 	"Su ",    // 0xf3
 	"Xian ",  // 0xf4
 	"Jiang ", // 0xf5

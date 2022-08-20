@@ -16,12 +16,12 @@ var x058 = []string{
 	"Gu ",     // 0x0c
 	"Tu ",     // 0x0d
 	"Leng ",   // 0x0e
-	"[?] ",    // 0x0f
+	"",        // 0x0f
 	"Ya ",     // 0x10
 	"Qian ",   // 0x11
-	"[?] ",    // 0x12
+	"",        // 0x12
 	"An ",     // 0x13
-	"[?] ",    // 0x14
+	"",        // 0x14
 	"Duo ",    // 0x15
 	"Nao ",    // 0x16
 	"Tu ",     // 0x17
@@ -71,7 +71,7 @@ var x058 = []string{
 	"Huang ",  // 0x43
 	"Leng ",   // 0x44
 	"Duan ",   // 0x45
-	"[?] ",    // 0x46
+	"",        // 0x46
 	"Xuan ",   // 0x47
 	"Ji ",     // 0x48
 	"Ji ",     // 0x49
@@ -156,7 +156,7 @@ var x058 = []string{
 	"Qi ",     // 0x98
 	"Qiang ",  // 0x99
 	"Liang ",  // 0x9a
-	"[?] ",    // 0x9b
+	"",        // 0x9b
 	"Zhui ",   // 0x9c
 	"Qiao ",   // 0x9d
 	"Zeng ",   // 0x9e
@@ -235,10 +235,10 @@ var x058 = []string{
 	"Yan ",    // 0xe7
 	"Lei ",    // 0xe8
 	"Ba ",     // 0xe9
-	"[?] ",    // 0xea
+	"",        // 0xea
 	"Shi ",    // 0xeb
 	"Ren ",    // 0xec
-	"[?] ",    // 0xed
+	"",        // 0xed
 	"Zhuang ", // 0xee
 	"Zhuang ", // 0xef
 	"Sheng ",  // 0xf0

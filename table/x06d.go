@@ -29,7 +29,7 @@ var x06d = []string{
 	"Zhu ",   // 0x19
 	"Jiang ", // 0x1a
 	"Luo ",   // 0x1b
-	"[?] ",   // 0x1c
+	"",       // 0x1c
 	"An ",    // 0x1d
 	"Dong ",  // 0x1e
 	"Yi ",    // 0x1f
@@ -166,7 +166,7 @@ var x06d = []string{
 	"Yun ",   // 0xa2
 	"Huan ",  // 0xa3
 	"Di ",    // 0xa4
-	"[?] ",   // 0xa5
+	"",       // 0xa5
 	"Run ",   // 0xa6
 	"Jian ",  // 0xa7
 	"Zhang ", // 0xa8

@@ -14,7 +14,7 @@ var x06b = []string{
 	"Quan ",    // 0x0a
 	"Qu ",      // 0x0b
 	"Cang ",    // 0x0c
-	"[?] ",     // 0x0d
+	"",         // 0x0d
 	"Yu ",      // 0x0e
 	"Luo ",     // 0x0f
 	"Li ",      // 0x10
@@ -221,8 +221,8 @@ var x06b = []string{
 	"Bi ",      // 0xd9
 	"Chan ",    // 0xda
 	"Mao ",     // 0xdb
-	"[?] ",     // 0xdc
-	"[?] ",     // 0xdd
+	"",         // 0xdc
+	"",         // 0xdd
 	"Pu ",      // 0xde
 	"Mushiru ", // 0xdf
 	"Jia ",     // 0xe0
@@ -247,7 +247,7 @@ var x06b = []string{
 	"Cui ",     // 0xf3
 	"Bi ",      // 0xf4
 	"San ",     // 0xf5
-	"[?] ",     // 0xf6
+	"",         // 0xf6
 	"Mao ",     // 0xf7
 	"Sui ",     // 0xf8
 	"Yu ",      // 0xf9

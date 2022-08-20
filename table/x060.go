@@ -62,7 +62,7 @@ var x060 = []string{
 	"Koraeru ", // 0x3a
 	"Zong ",    // 0x3b
 	"Dui ",     // 0x3c
-	"[?] ",     // 0x3d
+	"",         // 0x3d
 	"Ki ",      // 0x3e
 	"Yi ",      // 0x3f
 	"Chi ",     // 0x40
@@ -203,7 +203,7 @@ var x060 = []string{
 	"Dun ",     // 0xc7
 	"Guo ",     // 0xc8
 	"Chan ",    // 0xc9
-	"Jing ",    // 0xca
+	"Liang ",   // 0xca
 	"Wan ",     // 0xcb
 	"Yuan ",    // 0xcc
 	"Jin ",     // 0xcd

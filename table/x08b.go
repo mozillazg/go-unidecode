@@ -4,7 +4,7 @@ var x08b = []string{
 	"Mou ",   // 0x00
 	"Ye ",    // 0x01
 	"Wei ",   // 0x02
-	"[?] ",   // 0x03
+	"",       // 0x03
 	"Teng ",  // 0x04
 	"Zou ",   // 0x05
 	"Shan ",  // 0x06
@@ -35,7 +35,7 @@ var x08b = []string{
 	"Tao ",   // 0x1f
 	"Yao ",   // 0x20
 	"Yao ",   // 0x21
-	"[?] ",   // 0x22
+	"",       // 0x22
 	"Yu ",    // 0x23
 	"Biao ",  // 0x24
 	"Cong ",  // 0x25

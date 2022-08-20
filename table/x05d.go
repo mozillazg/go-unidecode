@@ -49,7 +49,7 @@ var x05d = []string{
 	"Zhan ",      // 0x2d
 	"Gu ",        // 0x2e
 	"Yin ",       // 0x2f
-	"[?] ",       // 0x30
+	"",           // 0x30
 	"Ze ",        // 0x31
 	"Huang ",     // 0x32
 	"Yu ",        // 0x33
@@ -118,7 +118,7 @@ var x05d = []string{
 	"Nie ",       // 0x72
 	"Cuo ",       // 0x73
 	"Ji ",        // 0x74
-	"[?] ",       // 0x75
+	"",           // 0x75
 	"Tao ",       // 0x76
 	"Song ",      // 0x77
 	"Zong ",      // 0x78
@@ -183,7 +183,7 @@ var x05d = []string{
 	"Di ",        // 0xb3
 	"Ao ",        // 0xb4
 	"Zui ",       // 0xb5
-	"[?] ",       // 0xb6
+	"",           // 0xb6
 	"Ni ",        // 0xb7
 	"Rong ",      // 0xb8
 	"Dao ",       // 0xb9
@@ -192,7 +192,7 @@ var x05d = []string{
 	"Yu ",        // 0xbc
 	"Yue ",       // 0xbd
 	"Yin ",       // 0xbe
-	"[?] ",       // 0xbf
+	"",           // 0xbf
 	"Jie ",       // 0xc0
 	"Li ",        // 0xc1
 	"Sui ",       // 0xc2
@@ -214,7 +214,7 @@ var x05d = []string{
 	"Luan ",      // 0xd2
 	"Dian ",      // 0xd3
 	"Dian ",      // 0xd4
-	"[?] ",       // 0xd5
+	"",           // 0xd5
 	"Yan ",       // 0xd6
 	"Yan ",       // 0xd7
 	"Yan ",       // 0xd8
