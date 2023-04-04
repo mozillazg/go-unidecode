@@ -10,7 +10,7 @@ jobs:
     runs-on: ubuntu-latest
     strategy:
       matrix:
-        go-version: [1.12, 1.13, 1.14, 1.15, 1.16, 1.17, 1.18, 1.19]
+        go-version: [1.12, 1.13, 1.14, 1.15, 1.16, 1.17, 1.18, 1.19, 1.20]
     steps:
     - uses: actions/checkout@v3
 
@@ -25,4 +25,4 @@ jobs:
       run: make test
 
     - name: Test CLI
-      run: cd unidecode && go run main.go kožušček
+      run: go run unidecode/main.go kožušček

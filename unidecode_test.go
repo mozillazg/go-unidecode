@@ -1,22 +1,25 @@
 package unidecode
 
 import (
+	"strings"
 	"testing"
 	"unicode"
 )
 
 type testCase struct {
-	input, expect string
+	name, input, expect string
 }
 
-func testUnidecode(t *testing.T, input, expect string) {
-	ret := Unidecode(input)
-	check(t, ret, expect)
+func testUnidecode(t *testing.T, c testCase) {
+	t.Run(c.name, func(t *testing.T) {
+		ret := Unidecode(c.input)
+		check(t, ret, c.expect)
+	})
 }
 
 func check(t *testing.T, ret, expect string) {
 	if ret != expect {
-		t.Errorf("Expected %s, got %s", expect, ret)
+		t.Errorf("Expected '%v', got '%v'", expect, ret)
 	}
 }
 
@@ -28,43 +31,43 @@ func TestVersion(t *testing.T) {
 
 func TestUnidecodeASCII(t *testing.T) {
 	for n := 0; n < unicode.MaxASCII; n++ {
-		expect := string(rune(n))
-		testUnidecode(t, string(rune(n)), expect)
+		r := string(rune(n))
+		testUnidecode(t, testCase{name: r, input: r, expect: strings.Trim(r, " ")})
 	}
 }
 
 func TestUnidecode(t *testing.T) {
 	cases := []testCase{
-		{"", ""},
-		{"abc", "abc"},
-		{"北京", "Bei Jing "},
-		{"abc北京", "abcBei Jing "},
-		{"ネオアームストロングサイクロンジェットアームストロング砲", "neoamusutorongusaikuronzietsutoamusutoronguPao "},
-		{"30 𝗄𝗆/𝗁", "30 km/h"},
-		{"kožušček", "kozuscek"},
-		{"ⓐⒶ⑳⒇⒛⓴⓾⓿", "aA20(20)20.20100"},
-		{"Hello, World!", "Hello, World!"},
-		{`\n`, `\n`},
-		{`北京abc\n`, `Bei Jing abc\n`},
-		{`'"\r\n`, `'"\r\n`},
-		{"ČŽŠčžš", "CZSczs"},
-		{"ア", "a"},
-		{"α", "a"},
-		{"a", "a"},
-		{"ch\u00e2teau", "chateau"},
-		{"vi\u00f1edos", "vinedos"},
-		{"Efﬁcient", "Efficient"},
-		{"příliš žluťoučký kůň pěl ďábelské ódy", "prilis zlutoucky kun pel dabelske ody"},
-		{"PŘÍLIŠ ŽLUŤOUČKÝ KŮŇ PĚL ĎÁBELSKÉ ÓDY", "PRILIS ZLUTOUCKY KUN PEL DABELSKE ODY"},
-		{"\ua500", ""},
-		{"\u1eff", ""},
-		{string(rune(0xfffff)), ""},
-		{"\U0001d5a0", "A"},
-		{"\U0001d5c4\U0001d5c6/\U0001d5c1", "km/h"},
-		{"\u2124\U0001d552\U0001d55c\U0001d552\U0001d55b \U0001d526\U0001d52a\U0001d51e \U0001d4e4\U0001d4f7\U0001d4f2\U0001d4ec\U0001d4f8\U0001d4ed\U0001d4ee \U0001d4c8\U0001d4c5\u212f\U0001d4b8\U0001d4be\U0001d4bb\U0001d4be\U0001d4c0\U0001d4b6\U0001d4b8\U0001d4be\U0001d4bf\u212f \U0001d59f\U0001d586 \U0001d631\U0001d62a\U0001d634\U0001d622\U0001d637\U0001d626?!", "Zakaj ima Unicode specifikacije za pisave?!"},
+		{"empty", "", ""},
+		{"ascii", "abc", "abc"},
+		{"han", "北京", "Bei Jing"},
+		{"ascii and han", "abc北京", "abcBei Jing"},
+		{"katakana", "ネオアームストロングサイクロンジェットアームストロング砲", "neoamusutorongusaikuronzietsutoamusutoronguPao"},
+		{"russian", "30 𝗄𝗆/𝗁", "30 km/h"},
+		{"", "kožušček", "kozuscek"},
+		{"symbol", "ⓐⒶ⑳⒇⒛⓴⓾⓿", "aA20(20)20.20100"},
+		{"", "Hello, World!", "Hello, World!"},
+		{"", `\n`, `\n`},
+		{"", `北京abc\n`, `Bei Jing abc\n`},
+		{"", `'"\r\n`, `'"\r\n`},
+		{"", "ČŽŠčžš", "CZSczs"},
+		{"", "ア", "a"},
+		{"", "α", "a"},
+		{"", "a", "a"},
+		{"", "ch\u00e2teau", "chateau"},
+		{"", "vi\u00f1edos", "vinedos"},
+		{"", "Efﬁcient", "Efficient"},
+		{"", "příliš žluťoučký kůň pěl ďábelské ódy", "prilis zlutoucky kun pel dabelske ody"},
+		{"", "PŘÍLIŠ ŽLUŤOUČKÝ KŮŇ PĚL ĎÁBELSKÉ ÓDY", "PRILIS ZLUTOUCKY KUN PEL DABELSKE ODY"},
+		{"", "\ua500", ""},
+		{"", "\u1eff", ""},
+		{"", string(rune(0xfffff)), ""},
+		{"", "\U0001d5a0", "A"},
+		{"", "\U0001d5c4\U0001d5c6/\U0001d5c1", "km/h"},
+		{"", "\u2124\U0001d552\U0001d55c\U0001d552\U0001d55b \U0001d526\U0001d52a\U0001d51e \U0001d4e4\U0001d4f7\U0001d4f2\U0001d4ec\U0001d4f8\U0001d4ed\U0001d4ee \U0001d4c8\U0001d4c5\u212f\U0001d4b8\U0001d4be\U0001d4bb\U0001d4be\U0001d4c0\U0001d4b6\U0001d4b8\U0001d4be\U0001d4bf\u212f \U0001d59f\U0001d586 \U0001d631\U0001d62a\U0001d634\U0001d622\U0001d637\U0001d626?!", "Zakaj ima Unicode specifikacije za pisave?!"},
 	}
 	for _, c := range cases {
-		testUnidecode(t, c.input, c.expect)
+		testUnidecode(t, c)
 	}
 }
 
@@ -79,7 +82,7 @@ func TestUnidecodeConverterA(t *testing.T) {
 		"\U0001d57f\U0001d573\U0001d570 \U0001d57c\U0001d580\U0001d574\U0001d56e\U0001d576 \U0001d56d\U0001d57d\U0001d57a\U0001d582\U0001d579 \U0001d571\U0001d57a\U0001d583 \U0001d575\U0001d580\U0001d578\U0001d57b\U0001d57e \U0001d57a\U0001d581\U0001d570\U0001d57d \U0001d57f\U0001d573\U0001d570 \U0001d577\U0001d56c\U0001d585\U0001d584 \U0001d56f\U0001d57a\U0001d572 1234567890",
 	}
 	for _, c := range cases {
-		testUnidecode(t, c, v)
+		testUnidecode(t, testCase{input: c, expect: v})
 	}
 }
 
@@ -94,6 +97,6 @@ func TestUnidecodeConverterB(t *testing.T) {
 		"\U0001d599\U0001d58d\U0001d58a \U0001d596\U0001d59a\U0001d58e\U0001d588\U0001d590 \U0001d587\U0001d597\U0001d594\U0001d59c\U0001d593 \U0001d58b\U0001d594\U0001d59d \U0001d58f\U0001d59a\U0001d592\U0001d595\U0001d598 \U0001d594\U0001d59b\U0001d58a\U0001d597 \U0001d599\U0001d58d\U0001d58a \U0001d591\U0001d586\U0001d59f\U0001d59e \U0001d589\U0001d594\U0001d58c 1234567890",
 	}
 	for _, c := range cases {
-		testUnidecode(t, c, v)
+		testUnidecode(t, testCase{input: c, expect: v})
 	}
 }

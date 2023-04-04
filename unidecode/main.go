@@ -7,9 +7,14 @@ import (
 	"os"
 	"strings"
 
-	"github.com/mattn/go-isatty"
 	"github.com/mozillazg/go-unidecode"
+	"golang.org/x/sys/unix"
 )
+
+func isTerminal(fd uintptr) bool {
+	_, err := unix.IoctlGetTermios(int(fd), unix.TCGETS)
+	return err == nil
+}
 
 func main() {
 	version := flag.Bool("V", false, "Output version info")
@@ -22,7 +27,7 @@ func main() {
 
 	textSlice := flag.Args()
 	stdin := []byte{}
-	if !isatty.IsTerminal(os.Stdin.Fd()) {
+	if !isTerminal(os.Stdin.Fd()) {
 		stdin, _ = ioutil.ReadAll(os.Stdin)
 	}
 	if len(stdin) > 0 {
