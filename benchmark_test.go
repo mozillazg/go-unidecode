@@ -3,9 +3,7 @@ package unidecode
 import "testing"
 
 func benchmarkUnidecode(b *testing.B, s string) {
-	b.StopTimer()
-	b.StartTimer()
-
+	b.ResetTimer()
 	for i := 0; i < b.N; i++ {
 		Unidecode(s)
 	}

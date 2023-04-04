@@ -15,7 +15,7 @@ func Version() string {
 // Unidecode implements transliterate Unicode text into plain 7-bit ASCII.
 // e.g. Unidecode("kožušček") => "kozuscek"
 func Unidecode(s string) string {
-	return unidecode(s)
+	return strings.Trim(unidecode(s), " ")
 }
 
 func unidecode(s string) string {
