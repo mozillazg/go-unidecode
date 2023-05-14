@@ -13,13 +13,13 @@ Installation
 ------------
 
 ```
-go get -u github.com/mozillazg/go-unidecode
+go get github.com/mozillazg/go-unidecode
 ```
 
 Install CLI tool:
 
 ```
-$ go get -u github.com/mozillazg/go-unidecode/unidecode
+$ go install github.com/mozillazg/go-unidecode/cmd/unidecode@latest
 
 $ unidecode 北京kožušček
 Bei Jing kozuscek
